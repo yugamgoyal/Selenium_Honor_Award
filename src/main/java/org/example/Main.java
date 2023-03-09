@@ -28,10 +28,10 @@ public class Main {
 
 
         WebElement element_enter = driver.findElement(By.xpath("//*[@id=\"eid\"]/label"));
-        element_enter.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("yg8338");
+        element_enter.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("EID");
 
         element_enter = driver.findElement(By.xpath("//*[@id=\"pw\"]/label"));
-        element_enter.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("RRq7kP2d4!m!pRk");
+        element_enter.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("PASSWORD");
 
         WebElement m=driver.findElement(By.xpath("//*[@id=\"login-button\"]/input"));
         m.click();
